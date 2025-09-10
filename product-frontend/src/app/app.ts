@@ -1,0 +1,16 @@
+import { Component, signal } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+
+@Component({
+  selector: 'app-root',
+  imports: [],
+  templateUrl: './app.html',
+  styleUrl: './app.css'
+})
+export class App {
+  nombre = "Ronald";
+
+  cambiarNombre() {
+    this.nombre = "Farid";
+  }
+}
